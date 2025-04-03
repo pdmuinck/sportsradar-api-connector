@@ -14,4 +14,5 @@ To ingest data:
 ```shell
 pip install -r requirements.txt
 python3 ingest.py
+mysql -uroot -proot -h127.0.0.1 -e 'select * from sportradar.matches'
 ```
